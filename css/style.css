@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodyPropio{
+    font-family: 'Nunito Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bodyIndex{
+    background-image: linear-gradient(to bottom, #f6f6f6, #d1d1d1, #adadad, #8a8a8a, #696969);
+}
+.contenedorLogo{
+    display: inline-block;
+    width: 30%;
+    padding-top: 5px;
+}
+.logoPropio {
+    width: 200px;
+}
+.usuario{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+}
+.contenedorLogin{
+    text-align: end;
+    display: inline-block;
+    width: 60%;
+}
+.login{
+    text-decoration: none;
+    color: black;  
+    font-size: 1rem;
+}
+.tituloMain{
+    width: 100%;
+    height: 30%;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon{
+    color: rgb(10, 168, 134);
+    font-size: 4rem;
+    padding-left: 20px;
+}
+.paginaLogin {
+    width: 40%;
+    text-align: left;
+}
+.fuenteNav{
+    font-size: 1.5rem;
+}
+.card-img-top{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.carousel-item{
+    height: 60vh;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bodyEspecialidades{
+    background-image: linear-gradient(to bottom, #f4f4f4, #c5c5d5, #939ab7, #5b729b, #034e7e);
+}
+.dropdownPropio{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

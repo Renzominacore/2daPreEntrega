@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAS - Clinica Medica</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/cd2fa68551.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bodyPropio bodyEspecialidades">
+  <header>
+    <div class="contenedorLogo">
+      <a href="#"></a><img class="logoPropio" src="../assets/img/logo.png" alt="Logo">
+    </div>
+    <ul class="contenedorLogin">
+      <li class="usuario"><a class="login" href="./iniciarsesion.html">Iniciar sesion</a></li>
+      <li class="usuario"><a class="login" href="./registrarse.html">Registrarse</a></li>
+    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav w-100 justify-content-evenly">
+            <li class="nav-item fuenteNav">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item fuenteNav">
+              <a class="nav-link" href="#">Especialidades</a>
+            </li>
+            <li class="nav-item fuenteNav">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item fuenteNav">
+              <a class="nav-link" href="./turnos.html">Turnos</a>
+            </li>
+            <li class="nav-item fuenteNav">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr>
+  </header>
+  <main class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/clinica.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/cardio.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/nutri.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/pediatria.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/traumato.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="dropdown text-center dropdownPropio">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Clinica
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Dr Garcia</a></li>
+        <li><a class="dropdown-item" href="#">Dra Gutierrez</a></li>
+        <li><a class="dropdown-item" href="#">Dra Sainz</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Cardiologia
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Dra Silva</a></li>
+        <li><a class="dropdown-item" href="#">Dra Gonzalez</a></li>
+        <li><a class="dropdown-item" href="#">Dr Peralta</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Nutricion
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Dr Santana</a></li>
+        <li><a class="dropdown-item" href="#">Dra Martinez</a></li>
+        <li><a class="dropdown-item" href="#">Dr Rodriguez</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Pediatria
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Dra Gomez</a></li>
+        <li><a class="dropdown-item" href="#">Dr Lopez</a></li>
+        <li><a class="dropdown-item" href="#">Dra Morales</a></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Traumatologia
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Dr Hernandez</a></li>
+        <li><a class="dropdown-item" href="#">Dra Flores</a></li>
+        <li><a class="dropdown-item" href="#">Dr Benitez</a></li>
+      </ul>
+    </div>
+  </main>
+  <hr>
+  <footer class="footer">
+    <p>Todos los derechos reservados© - Renzo Minacore</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3"><a class="linkRedes" href="https://www.facebook.com/" target="_blank"><i
+              class="icon fa-brands fa-facebook"></i></a></div>
+        <div class="col-3"><a class="linkRedes" href="https://www.instagram.com/" target="_blank"><i
+              class="icon fa-brands fa-instagram"></i></a></div>
+        <div class="col-3"><a class="linkRedes" href="https://ar.linkedin.com/" target="_blank"><i
+              class="icon fa-brands fa-linkedin-in"></i></a></div>
+        <div class="col-3"><a class="linkRedes" href="https://www.whatsapp.com/" target="_blank"><i
+              class="icon fa-brands fa-whatsapp"></i></a></div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
