@@ -1,0 +1,27 @@
+header{
+    .contenedorLogo{
+        display: inline-block;
+        width: 30%;
+        padding-top: 5px;
+        .logoPropio{
+            width: 200px;
+        }
+    }
+    .contenedorLogin{
+        text-align: end;
+        display: inline-block;
+        width: 60%;
+        .usuario{
+            display: inline-block;
+            list-style: none;
+            padding-left: 20px;
+            .login{
+                text-decoration: none;
+                color: black;  
+            }
+        }
+    }
+    .fuenteNav{
+        font-size: 1.5rem;
+    }
+}

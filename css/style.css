@@ -1,104 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.bodyPropio{
-    font-family: 'Nunito Sans', sans-serif;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.bodyIndex{
-    background-image: linear-gradient(to bottom, #f6f6f6, #dbdcde, #bfc2c6, #a3aaae, #879296);
-}
-.contenedorLogo{
-    display: inline-block;
-    width: 30%;
-    padding-top: 5px;
-}
-.logoPropio {
-    width: 200px;
-}
-.usuario{
-    display: inline-block;
-    list-style: none;
-    padding-left: 20px;
-}
-.contenedorLogin{
-    text-align: end;
-    display: inline-block;
-    width: 60%;
-}
-.login{
-    text-decoration: none;
-    color: black;  
-    font-size: 1rem;
-}
-.tituloMain{
-    width: 100%;
-    height: 30%;
-    padding-top: 8px;
-    text-align: center;
-    font-weight: 700;
-}
-.footer p{
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
+.bodyPropio {
+  font-family: "Nunito Sans", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.icon{
-    color: rgb(10, 168, 134);
-    font-size: 4rem;
-    padding-left: 20px;
+header .contenedorLogo {
+  display: inline-block;
+  width: 30%;
+  padding-top: 5px;
 }
+header .contenedorLogo .logoPropio {
+  width: 200px;
+}
+header .contenedorLogin {
+  text-align: end;
+  display: inline-block;
+  width: 60%;
+}
+header .contenedorLogin .usuario {
+  display: inline-block;
+  list-style: none;
+  padding-left: 20px;
+}
+header .contenedorLogin .usuario .login {
+  text-decoration: none;
+  color: black;
+}
+header .fuenteNav {
+  font-size: 1.5rem;
+}
+
+footer .footerParrafo {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+footer .icon {
+  color: rgb(10, 168, 134);
+  font-size: 4rem;
+  padding-left: 20px;
+}
+
+.bodyEspecialidades {
+  background-image: linear-gradient(to bottom, #e0e2e5, #cbdaea, #b0d3ed, #8fcdee, #62c8ec);
+}
+
+main .carousel-item {
+  height: 60vh;
+}
+main .carousel-item .carousel-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .carousel-item .dropdownPropio {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bodyIndex {
+  background-image: linear-gradient(to bottom, #f6f6f6, #dbdcde, #bfc2c6, #a3aaae, #879296);
+}
+
+main .tituloMain {
+  width: 100%;
+  height: 30%;
+  padding-top: 8px;
+  text-align: center;
+  font-weight: 700;
+}
+main .card-img-top {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.bodyNosotros {
+  background-image: linear-gradient(to bottom, #f6f6f6, #fdeff7, #ffe7e6, #ffe5ca, #ebebb9);
+}
+
+.bodyTurnos {
+  background-image: linear-gradient(to bottom, #e0e2e5, #ced7ed, #c4c9f3, #c4b9f5, #cba7f2);
+}
+
+.mainTurnos {
+  width: 70%;
+}
+
+.bodyContacto {
+  background-image: linear-gradient(to bottom, #f6f6f6, #ede6f7, #e8d5f6, #e8c3f0, #ecafe7);
+}
+
+.bodyIniciar {
+  background-image: linear-gradient(to bottom, #f6f6f6, #f3eaf2, #f8dbe4, #fbcfcc, #f4c6ad);
+}
+
 .paginaLogin {
-    width: 100%;
-    text-align: left;
+  width: 100%;
+  text-align: left;
 }
-.fuenteNav{
-    font-size: 1.5rem;
+
+.bodyRegistrarse {
+  background-image: linear-gradient(to bottom, #f6f6f6, #f2ebf3, #f4dee8, #f7d2d6, #f6c8be);
 }
-.card-img-top{
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
+
+.mainRegistrarse {
+  width: 70%;
 }
-.carousel-item{
-    height: 60vh;
-}
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.bodyEspecialidades{
-    background-image: linear-gradient(to bottom, #e0e2e5, #cbdaea, #b0d3ed, #8fcdee, #62c8ec);
-}
-.dropdownPropio{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.bodyTurnos{
-    background-image: linear-gradient(to bottom, #e0e2e5, #ced7ed, #c4c9f3, #c4b9f5, #cba7f2);
-}
-.mainTurnos{
-    width: 40%;
-}
-.bodyContacto{
-    background-image: linear-gradient(to bottom, #f6f6f6, #ede6f7, #e8d5f6, #e8c3f0, #ecafe7);
-}
-.bodyNosotros{
-    background-image: linear-gradient(to bottom, #f6f6f6, #fdeff7, #ffe7e6, #ffe5ca, #ebebb9);
-}
-.bodyIniciar{
-    background-image: linear-gradient(to bottom, #f6f6f6, #f3eaf2, #f8dbe4, #fbcfcc, #f4c6ad);
-}
-.bodyRegistrarse{
-    background-image: linear-gradient(to bottom, #f6f6f6, #f2ebf3, #f4dee8, #f7d2d6, #f6c8be);
-}
-.mainRegistrarse{
-    width: 40%;
-}
+
+/*# sourceMappingURL=style.css.map */
