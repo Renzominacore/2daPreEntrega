@@ -1,8 +1,8 @@
-.bodyPropio {
-  font-family: "Nunito Sans", sans-serif;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header .contenedorLogo {
@@ -31,6 +31,13 @@ header .fuenteNav {
   font-size: 1.5rem;
 }
 
+.bodyPropio {
+  font-family: "Nunito Sans", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 footer .footerParrafo {
   font-size: 1rem;
   font-weight: 700;
@@ -38,8 +45,12 @@ footer .footerParrafo {
 }
 footer .icon {
   color: rgb(10, 168, 134);
-  font-size: 4rem;
-  padding-left: 20px;
+  font-size: 3rem;
+}
+footer .footerPropio {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 1%;
 }
 
 .bodyEspecialidades {
@@ -54,9 +65,9 @@ main .carousel-item .carousel-item-img {
   height: 100%;
   object-fit: cover;
 }
-main .carousel-item .dropdownPropio {
-  margin-top: 30px;
-  margin-bottom: 30px;
+main .dropdownPropio {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .bodyIndex {
@@ -74,6 +85,8 @@ main .card-img-top {
   width: 100%;
   height: 60%;
   object-fit: cover;
+  border-radius: 20px;
+  border: solid 3px black;
 }
 
 .bodyNosotros {
@@ -97,8 +110,11 @@ main .card-img-top {
 }
 
 .paginaLogin {
-  width: 100%;
-  text-align: left;
+  width: 70%;
+}
+
+.recordarmeLogin {
+  padding-left: 10%;
 }
 
 .bodyRegistrarse {

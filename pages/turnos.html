@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, JS,clinica,salud , medicina, bienestar, especialidades">
+        <meta name="description" content="Clinica medica especializada en medicina clinica, cardiologia, nutricion,pediatria, traumtalogia">
         <title>SAS - Clinica Medica</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <script src="https://kit.fontawesome.com/cd2fa68551.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="../css/style.css">
     </head>
       <body class="bodyPropio bodyTurnos">
         <header>
           <div class="contenedorLogo">
-            <a href="#"></a><img class="logoPropio" src="../assets/img/logo.png" alt="Logo">
+            <a href="#"></a><img class="logoPropio animate__animated animate__backInLeft" src="../assets/img/logo.png" alt="Logo">
           </div>
           <ul class="contenedorLogin">
-            <li class="usuario"><a class="login" href="./iniciarsesion.html">Iniciar sesion</a></li>
-            <li class="usuario"><a class="login" href="./registrarse.html">Registrarse</a></li>
+            <li class="usuario animate__animated animate__backInRight"><a class="login" href="./iniciarsesion.html">Iniciar sesion</a></li>
+            <li class="usuario animate__animated animate__backInRight"><a class="login" href="./registrarse.html">Registrarse</a></li>
           </ul>
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -50,7 +53,7 @@
         </header>
         <main class="main">
           <h1 class="text-center">Turnos</h1>
-          <div class="container mainTurnos">
+          <div class="container text-center mainTurnos">
             <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Especialidad">
             <datalist id="datalistOptions">
               <option value="Medicina Clinica">
@@ -78,9 +81,11 @@
                 <option value="Pami">
               </datalist>
             <br>
+            <h2>Dia</h2>
             <input type="date" placeholder="Default input" aria-label="default input example">
             <br>
             <br>
+            <h2>Horario</h2>
             <input type="time" placeholder="Default input" aria-label="default input example">
             <br>
             <br>
@@ -91,7 +96,7 @@
         <footer>
           <p class="footerParrafo">Todos los derechos reservados© - Renzo Minacore</p>
           <div class="container-fluid">
-            <div class="row">
+            <div class="row footerPropio">
               <div class="col-3 text-center"><a class="linkRedes" href="https://www.facebook.com/" target="_blank"><i
                     class="icon fa-brands fa-facebook"></i></a></div>
               <div class="col-3 text-center"><a class="linkRedes" href="https://www.instagram.com/" target="_blank"><i
