@@ -12,6 +12,7 @@ header .contenedorLogo {
 }
 header .contenedorLogo .logoPropio {
   width: 200px;
+  overflow: hidden;
 }
 header .contenedorLogin {
   text-align: end;
@@ -22,6 +23,7 @@ header .contenedorLogin .usuario {
   display: inline-block;
   list-style: none;
   padding-left: 20px;
+  overflow: hidden;
 }
 header .contenedorLogin .usuario .login {
   text-decoration: none;
@@ -80,6 +82,9 @@ main .tituloMain {
   padding-top: 8px;
   text-align: center;
   font-weight: 700;
+}
+main .tituloMain .tituloIndex {
+  overflow: hidden;
 }
 main .card-img-top {
   width: 100%;
