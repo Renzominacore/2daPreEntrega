@@ -92,6 +92,7 @@ main .card-img-top {
   object-fit: cover;
   border-radius: 20px;
   border: solid 3px black;
+  /*@include mixinBordes (100%,60%,solid 3px,black)*/
 }
 
 .bodyNosotros {
@@ -129,5 +130,12 @@ main .card-img-top {
 .mainRegistrarse {
   width: 70%;
 }
+
+.bodyError {
+  background-color: black;
+  color: white;
+}
+
+/*@import "mixins";*/
 
 /*# sourceMappingURL=style.css.map */

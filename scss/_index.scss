@@ -19,5 +19,6 @@ main{
         object-fit: cover;
         border-radius: 20px;
         border: solid 3px black;
+        /*@include mixinBordes (100%,60%,solid 3px,black)*/
     }
 }
